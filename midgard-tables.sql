@@ -24,6 +24,7 @@ CREATE TABLE `accounts` (
   `id` int(11) NOT NULL,
   `name` char(32) NOT NULL,
   `password` char(40) NOT NULL,
+  `email` char(255) NOT NULL,
   `type` int(11) NOT NULL DEFAULT '1',
   `premdays` int(11) NOT NULL DEFAULT '0',
   `lastday` int(10) UNSIGNED NOT NULL DEFAULT '0'
@@ -423,6 +424,7 @@ CREATE TABLE `tile_store` (
 --
 ALTER TABLE `accounts`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,
+  ADD UNIQUE KEY `email` (`email`),
   ADD PRIMARY KEY (`id`);
 
 --
