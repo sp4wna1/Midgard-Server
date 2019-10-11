@@ -21,13 +21,13 @@ killsMonthBanishment = 20
 
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit
-ip = "127.0.0.1"
+ip = "54.94.135.178"
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
 gameProtocolPort = 7172
 statusProtocolPort = 7171
 maxPlayers = 0
-motd = "Welcome to Midgard!"
+motd = "Bem-vindo a Midgard!"
 onePlayerOnlinePerAccount = true
 allowClones = false
 serverName = "Midgard"
@@ -56,12 +56,14 @@ mapName = "map"
 mapAuthor = "CipSoft"
 
 -- MySQL
+sqlType = "mysql"
 mysqlHost = "127.0.0.1"
 mysqlUser = "root"
-mysqlPass = ""
+mysqlPass = "vnKu7Cq$S5o8Z9HcEePcw"
 mysqlDatabase = "midgard"
 mysqlPort = 3306
 mysqlSock = ""
+encryptionType = "sha1"
 
 -- Misc.
 allowChangeOutfit = true
@@ -103,4 +105,4 @@ startupDatabaseOptimization = true
 ownerName = ""
 ownerEmail = ""
 url = "https://otland.net/"
-location = "Sweden"
+location = "Brazil"
