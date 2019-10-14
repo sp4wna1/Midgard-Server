@@ -29,7 +29,8 @@ CREATE TABLE `accounts` (
   `lastday` int(10) UNSIGNED NOT NULL DEFAULT '0',
   `create_date`  int(10) UNSIGNED NOT NULL DEFAULT '0',
   `last_post`  int(10) UNSIGNED,
-  `flag` char(10) NOT NULL
+  `flag` char(10) NOT NULL,
+  `key` char(20) NOT NULL DEFAULT ''
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------

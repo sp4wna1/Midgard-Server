@@ -20,8 +20,8 @@ START TRANSACTION;
 --
 
 -- TODO: Change to Server Email;
-INSERT INTO `accounts` (`id`, `password`, `email`, `type`, `premdays`, `lastday`, `create_date`, `last_post`, `flag`)
-VALUES('974294', SHA1('Ft3JLYGPt25I'), 'gasp4wna1@gmail.com', 1, 0, current_date(), current_date, null, 'br');
+INSERT INTO `accounts` (`id`, `password`, `email`, `type`, `premdays`, `lastday`, `create_date`, `last_post`, `flag`, `key`)
+VALUES('974294', SHA1('Ft3JLYGPt25I'), 'gasp4wna1@gmail.com', 1, 0, current_date(), current_date, null, 'br', '');
 
 -- --------------------------------------------------------
 --
