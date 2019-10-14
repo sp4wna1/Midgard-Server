@@ -82,10 +82,10 @@ newbieLevelThreshold = 5
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
 rateExp = 1
-rateSkill = 1
-rateLoot = 1
-rateMagic = 1
-rateSpawn = 0
+rateSkill = 5
+rateLoot = 3
+rateMagic = 5
+rateSpawn = 1
 
 -- Monsters
 deSpawnRange = 2
@@ -102,7 +102,7 @@ defaultPriority = "high"
 startupDatabaseOptimization = true
 
 -- Status server information
-ownerName = ""
-ownerEmail = ""
+ownerName = "Gabriel Prado"
+ownerEmail = "gaa.prado@hotmail.com"
 url = "https://otland.net/"
 location = "Brazil"
