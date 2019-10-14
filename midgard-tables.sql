@@ -2,7 +2,7 @@ CREATE DATABASE midgard;
 USE midgard;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
+SET AUTOCOMMIT = 1;
 START TRANSACTION;
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -22,12 +22,14 @@ START TRANSACTION;
 
 CREATE TABLE `accounts` (
   `id` int(11) NOT NULL,
-  `name` char(32) NOT NULL,
   `password` char(40) NOT NULL,
   `email` char(255) NOT NULL,
   `type` int(11) NOT NULL DEFAULT '1',
   `premdays` int(11) NOT NULL DEFAULT '0',
-  `lastday` int(10) UNSIGNED NOT NULL DEFAULT '0'
+  `lastday` int(10) UNSIGNED NOT NULL DEFAULT '0',
+  `create_date`  int(10) UNSIGNED NOT NULL DEFAULT '0',
+  `last_post`  int(10) UNSIGNED,
+  `flag` char(10) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -248,7 +250,7 @@ CREATE TABLE `players` (
   `posx` int(11) NOT NULL DEFAULT '0',
   `posy` int(11) NOT NULL DEFAULT '0',
   `posz` int(11) NOT NULL DEFAULT '0',
-  `conditions` blob NOT NULL,
+  `conditions` blob,
   `cap` int(11) NOT NULL DEFAULT '0',
   `sex` int(11) NOT NULL DEFAULT '0',
   `lastlogin` bigint(20) UNSIGNED NOT NULL DEFAULT '0',
@@ -275,7 +277,10 @@ CREATE TABLE `players` (
   `skill_shielding_tries` bigint(20) UNSIGNED NOT NULL DEFAULT '0',
   `skill_fishing` int(10) UNSIGNED NOT NULL DEFAULT '10',
   `skill_fishing_tries` bigint(20) UNSIGNED NOT NULL DEFAULT '0',
-  `deleted` tinyint(1) NOT NULL DEFAULT '0'
+  `deleted` tinyint(1) NOT NULL DEFAULT '0',
+  `create_date`  int(10) UNSIGNED NOT NULL DEFAULT '0',
+  `comment` varchar(1000) DEFAULT '',
+  `hide_char` tinyint(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -419,11 +424,33 @@ CREATE TABLE `tile_store` (
 
 -- --------------------------------------------------------
 
+CREATE TABLE `forum` (
+	`id` int(11) NOT NULL auto_increment,
+	`first_post` int(11) NOT NULL default '0',
+	`last_post` int(11) NOT NULL default '0',
+	`section` int(3) NOT NULL default '0',
+	`replies` int(20) NOT NULL default '0',
+	`views` int(20) NOT NULL default '0',
+	`author_aid` int(20) NOT NULL default '0',
+	`author_guid` int(20) NOT NULL default '0',
+	`post_text` text NOT NULL,
+	`post_topic` varchar(255) NOT NULL,
+	`post_smile` tinyint(1) NOT NULL default '0',
+	`post_date` int(20) NOT NULL default '0',
+	`last_edit_aid` int(20) NOT NULL default '0',
+	`edit_date` int(20) NOT NULL default '0',
+	`post_ip` varchar(15) NOT NULL default '0.0.0.0',
+	PRIMARY KEY  (`id`),
+	KEY `section` (`section`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
 --
 -- Indexes for table `accounts`
 --
 ALTER TABLE `accounts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,
+  MODIFY `id` int(11) NOT NULL,
   ADD UNIQUE KEY `email` (`email`),
   ADD PRIMARY KEY (`id`);
 
