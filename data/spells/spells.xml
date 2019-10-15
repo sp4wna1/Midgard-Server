@@ -300,7 +300,7 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</conjure>
-	<conjure name="Envenom" words="adevo res pox" lvl="21" mana="400" soul="2" reagentId="3147" conjureId="3179" conjureCount="1" needlearn="0" function="conjureRune">
+	<conjure name="Envenom" words="adevo res pox" lvl="21" maglv="7" mana="100" soul="2" reagentId="3147" conjureId="3179" conjureCount="1" needlearn="0" function="conjureRune">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
