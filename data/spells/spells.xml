@@ -56,9 +56,9 @@
 		<vocation name="Knight" />
 		<vocation name="Elite Knight" />
 	</instant>
-	
+
 	<!-- Other -->
-	<instant name="Find Person" words="exiva" lvl="8" mana="20" aggressive="0" playernameparam="1" params="1" needlearn="0" function="searchPlayer">
+	<instant name="Find Person" words="exiva" lvl="8" maglv="0" mana="20" aggressive="0" playernameparam="1" params="1" needlearn="0" function="searchPlayer">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Paladin" />
