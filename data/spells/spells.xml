@@ -178,11 +178,11 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant name="Creature Illusion" words="utevo res ina" lvl="23" mana="100" aggressive="0" params="1" needlearn="0" function="Illusion">
-			<vocation name="Sorcerer" />
-			<vocation name="Druid" />
-			<vocation name="Master Sorcerer" />
-			<vocation name="Elder Druid" />
+	<instant name="Creature Illusion" words="utevo res ina" lvl="23" maglv="10" mana="100" aggressive="0" params="1" needlearn="0" function="Illusion">
+		<vocation name="Sorcerer" />
+		<vocation name="Druid" />
+		<vocation name="Master Sorcerer" />
+		<vocation name="Elder Druid" />
 	</instant>
 	<instant name="Summon Creature" words="utevo res" lvl="25" params="1" needlearn="0" function="summonMonster">
 		<vocation name="Sorcerer" />
