@@ -196,7 +196,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant name="Ultimate Light" words="utevo vis lux" lvl="26" mana="140" prem="1" aggressive="0" selftarget="1" needlearn="0" script="spells/ultimate light.lua">
+	<instant name="Ultimate Light" words="utevo vis lux" lvl="26" maglv="12" mana="140" prem="1" aggressive="0" selftarget="1" needlearn="0" script="spells/ultimate light.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
