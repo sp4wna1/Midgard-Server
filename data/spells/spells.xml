@@ -21,7 +21,7 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
-	<instant name="Ultimate Explosion" words="exevo gran mas vis" lvl="60" mana="1200" selftarget="1" prem="1" needlearn="0" script="spells/ultimate explosion.lua">
+	<instant name="Ultimate Explosion" words="exevo gran mas vis" lvl="60" maglv="40" mana="800" selftarget="1" prem="1" needlearn="0" script="spells/ultimate explosion.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
