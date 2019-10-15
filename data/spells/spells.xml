@@ -31,7 +31,7 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant name="Heal Friend" words="exura sio" lvl="18" mana="70" prem="1" aggressive="0" blockwalls="1" needtarget="1" playernameparam="1" params="1" needlearn="0" script="spells/heal friend.lua">
+	<instant name="Heal Friend" words="exura sio" lvl="18" maglv="7" mana="56" prem="1" aggressive="0" blockwalls="1" needtarget="1" playernameparam="1" params="1" needlearn="0" script="spells/heal friend.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
