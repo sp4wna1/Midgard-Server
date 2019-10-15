@@ -68,7 +68,7 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Elite Knight" />
 	</instant>
-	<instant name="Light" words="utevo lux" lvl="8" mana="20" aggressive="0" selftarget="1" needlearn="0" script="spells/light.lua">
+	<instant name="Light" words="utevo lux" lvl="8" maglv="0" mana="20" aggressive="0" selftarget="1" needlearn="0" script="spells/light.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Paladin" />
