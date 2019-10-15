@@ -284,7 +284,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Heavy Magic Missile" words="adori gran" lvl="25" mana="280" soul="2" reagentId="3147" conjureId="3198" conjureCount="5" needlearn="0" function="conjureRune">
+	<conjure name="Heavy Magic Missile" words="adori gran" lvl="25" maglv="3" mana="70" soul="2" reagentId="3147" conjureId="3198" conjureCount="5" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 		<vocation name="Druid" />
