@@ -202,7 +202,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant name="Invisible" words="utana vid" lvl="35" mana="440" aggressive="0" selftarget="1" needlearn="0" script="spells/invisible.lua">
+	<instant name="Invisible" words="utana vid" lvl="35" maglv="15" mana="150" aggressive="0" selftarget="1" needlearn="0" script="spells/invisible.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
