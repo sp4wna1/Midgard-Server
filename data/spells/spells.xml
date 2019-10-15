@@ -378,7 +378,7 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Animate Dead" words="adana mort" lvl="27" mana="600" soul="5" prem="1" reagentId="3147" conjureId="3203" conjureCount="1" needlearn="0" function="conjureRune">
+	<conjure name="Animate Dead" words="adana mort" lvl="27" maglv="7" mana="300" soul="5" prem="1" reagentId="3147" conjureId="3203" conjureCount="2" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
