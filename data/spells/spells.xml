@@ -190,7 +190,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant name="Cancel Invisibility" words="exana ina" lvl="26" mana="200" prem="1" aggressive="0" selftarget="1" needlearn="0" script="spells/cancel invisibility.lua">
+	<instant name="Cancel Invisibility" words="exana ina" lvl="26" maglv="12" mana="200" prem="1" aggressive="0" selftarget="1" needlearn="0" script="spells/cancel invisibility.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
