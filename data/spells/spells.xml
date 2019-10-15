@@ -230,7 +230,7 @@
 
 	<!-- Healing Rune Spells -->
 	<rune name="Antidote Rune" id="3153" allowfaruse="1" charges="1" maglv="0" aggressive="0" needtarget="1" blocktype="solid" script="runes/cure poison.lua" />
-	<rune name="Intense Healing Rune" id="3152" allowfaruse="1" charges="1" maglv="1" aggressive="0" needtarget="1" blocktype="solid" script="runes/intense healing.lua" />
+	<rune name="Intense Healing Rune" id="3152" allowfaruse="1" charges="1" maglv="2" aggressive="0" needtarget="1" blocktype="solid" script="runes/intense healing.lua" />
 	<rune name="Ultimate Healing Rune" id="3160" allowfaruse="1" charges="1" maglv="4" aggressive="0" needtarget="1" blocktype="solid" script="runes/ultimate healing.lua" />
 	<rune name="Convince Creature" id="3177" allowfaruse="1" charges="1" maglv="5" needtarget="1" blocktype="solid" function="convince" />
 	
