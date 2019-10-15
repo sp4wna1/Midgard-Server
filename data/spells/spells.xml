@@ -49,7 +49,7 @@
 	</instant>
 
 	<!-- Knight Spells -->
-	<instant name="Challenge" words="exeta res" lvl="20" mana="30" prem="1" aggressive="0" needlearn="0" script="spells/challenge.lua">
+	<instant name="Challenge" words="exeta res" lvl="20" maglv="4" mana="30" prem="1" aggressive="0" needlearn="0" script="spells/challenge.lua">
 		<vocation name="Elite Knight" />
 	</instant>
 	<instant name="Berserk" words="exori" lvl="35" manapercent="4" prem="1" needweapon="1" needlearn="0" script="spells/berserk.lua">
