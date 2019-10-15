@@ -208,7 +208,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</instant>
-	
+
 	<!-- Attack Rune Spells -->
 	<rune name="Poison Field" id="3172" allowfaruse="1" charges="3" maglv="0" blocktype="solid" script="runes/poison field.lua" />
 	<rune name="Poison Bomb" id="3173" allowfaruse="1" charges="2" maglv="4" blocktype="solid" script="runes/poison bomb.lua" />
@@ -219,7 +219,7 @@
 	<rune name="Energy Field" id="3164" allowfaruse="1" charges="3" maglv="3" blocktype="solid" script="runes/energy field.lua" />
 	<rune name="Energybomb" id="3151" allowfaruse="1" charges="2" maglv="10" blocktype="solid" script="runes/energybomb.lua" />
 	<rune name="Energy Wall" id="3166" allowfaruse="1" charges="4" maglv="9" blocktype="solid" script="runes/energy wall.lua" />
-	<rune name="Soulfire" id="3195" allowfaruse="1" charges="3" maglv="7" needtarget="1" blocktype="solid" script="runes/soulfire.lua" />
+	<rune name="Soulfire" id="3195" allowfaruse="1" charges="2" maglv="7" needtarget="1" blocktype="solid" script="runes/soulfire.lua" />
 	<rune name="Envenom" id="3179" allowfaruse="1" charges="1" maglv="4" needtarget="1" blocktype="solid" script="runes/envenom.lua" />
 	<rune name="Fireball" id="3189" allowfaruse="1" charges="5" maglv="4" needtarget="0" blocktype="solid" script="runes/fireball.lua" />
 	<rune name="Great Fireball" id="3191" allowfaruse="1" charges="4" maglv="4" blocktype="solid" script="runes/great fireball.lua" />
