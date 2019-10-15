@@ -25,9 +25,9 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
-	
+
 	<!-- Druid Spells -->
-	<instant name="Food" words="exevo pan" lvl="14" mana="120" soul="1" aggressive="0" needlearn="0" script="spells/food.lua">
+	<instant name="Food" words="exevo pan" lvl="14" maglv="0" mana="120" soul="1" aggressive="0" needlearn="0" script="spells/food.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
