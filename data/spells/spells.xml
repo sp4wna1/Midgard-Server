@@ -272,7 +272,7 @@
 	<conjure name="Enchant Staff" words="exeta vis" lvl="41" maglv="22" mana="80" prem="1" conjureId="3321" reagentId="3289" needlearn="0" function="conjureItem">
 		<vocation name="Master Sorcerer" />
 	</conjure>
-	<conjure name="Poison Field" words="adevo grav pox" lvl="14" mana="200" soul="1" reagentId="3147" conjureId="3172" conjureCount="3" needlearn="0" function="conjureRune">
+	<conjure name="Poison Field" words="adevo grav pox" lvl="14" maglv="2" mana="50" soul="1" reagentId="3147" conjureId="3172" conjureCount="3" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
