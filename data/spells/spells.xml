@@ -422,4 +422,5 @@
 	<instant name="House Subowner List" words="aleta som" selftarget="1" aggressive="0" function="editHouseSubOwner" />
 	<instant name="House Door List" words="aleta grav" selftarget="1" aggressive="0" function="editHouseDoor" />
 	<instant name="House Kick" words="alana sio" params="1" aggressive="0" function="houseKick" />
+
 </spells>
