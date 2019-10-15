@@ -172,7 +172,7 @@
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" />
 	</instant>
-	<instant name="Strong Haste" words="utani gran hur" lvl="20" mana="100" prem="1" aggressive="0" selftarget="1" needlearn="0" script="spells/strong haste.lua">
+	<instant name="Strong Haste" words="utani gran hur" lvl="20" maglv="8" mana="100" prem="1" aggressive="0" selftarget="1" needlearn="0" script="spells/strong haste.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
