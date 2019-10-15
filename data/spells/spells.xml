@@ -370,7 +370,7 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Ultimate Healing Rune" words="adura vita" lvl="24" mana="400" soul="3" reagentId="3147" conjureId="3160" conjureCount="1" needlearn="0" function="conjureRune">
+	<conjure name="Ultimate Healing Rune" words="adura vita" lvl="24" maglv="11" mana="100" soul="3" reagentId="3147" conjureId="3160" conjureCount="1" needlearn="0" function="conjureRune">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
