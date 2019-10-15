@@ -324,7 +324,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Soulfire" words="adevo res flam" lvl="27" mana="600" soul="3" prem="1" reagentId="3147" conjureId="3195" conjureCount="3" needlearn="0" function="conjureRune">
+	<conjure name="Soulfire" words="adevo res flam" lvl="27" maglv="13" mana="150" soul="3" prem="1" reagentId="3147" conjureId="3195" conjureCount="2" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
