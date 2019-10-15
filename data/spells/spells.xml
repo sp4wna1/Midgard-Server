@@ -278,7 +278,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Light Magic Missile" words="adori" lvl="15" mana="120" soul="1" reagentId="3147" conjureId="3174" conjureCount="5" needlearn="0" function="conjureRune">
+	<conjure name="Light Magic Missile" words="adori" lvl="15" maglv="1" mana="35" soul="1" reagentId="3147" conjureId="3174" conjureCount="5" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
