@@ -314,7 +314,7 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</conjure>
-	<conjure name="Poison Bomb" words="adevo mas pox" lvl="25" mana="520" soul="2" prem="1" reagentId="3147" conjureId="3173" conjureCount="2" needlearn="0" function="conjureRune">
+	<conjure name="Poison Bomb" words="adevo mas pox" lvl="25" maglv="8" mana="130" soul="2" prem="1" reagentId="3147" conjureId="3173" conjureCount="2" needlearn="0" function="conjureRune">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
