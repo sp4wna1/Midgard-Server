@@ -132,7 +132,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant name="Great Light" words="utevo gran lux" lvl="13" mana="60" aggressive="0" selftarget="1" needlearn="0" script="spells/great light.lua">
+	<instant name="Great Light" words="utevo gran lux" lvl="13" maglv="3" mana="60" aggressive="0" selftarget="1" needlearn="0" script="spells/great light.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Paladin" />
