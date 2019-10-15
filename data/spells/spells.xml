@@ -254,7 +254,7 @@
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" />
 	</conjure>
-	<conjure name="Conjure Poison Arrow" words="exevo con pox" lvl="16" mana="130" soul="2" conjureId="3448" conjureCount="7" needlearn="0" function="conjureItem">
+	<conjure name="Conjure Poison Arrow" words="exevo con pox" lvl="16" maglv="5" mana="70" soul="2" conjureId="3448" conjureCount="10" needlearn="0" function="conjureItem">
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" />
 	</conjure>
