@@ -222,7 +222,7 @@
 	<rune name="Soulfire" id="3195" allowfaruse="1" charges="2" maglv="7" needtarget="1" blocktype="solid" script="runes/soulfire.lua" />
 	<rune name="Envenom" id="3179" allowfaruse="1" charges="1" maglv="4" needtarget="1" blocktype="solid" script="runes/envenom.lua" />
 	<rune name="Fireball" id="3189" allowfaruse="1" charges="5" maglv="4" needtarget="0" blocktype="solid" script="runes/fireball.lua" />
-	<rune name="Great Fireball" id="3191" allowfaruse="1" charges="4" maglv="4" blocktype="solid" script="runes/great fireball.lua" />
+	<rune name="Great Fireball" id="3191" allowfaruse="1" charges="2" maglv="4" blocktype="solid" script="runes/great fireball.lua" />
 	<rune name="Light Magic Missile" id="3174" allowfaruse="1" charges="10" maglv="0" needtarget="1" blocktype="solid" script="runes/light magic missile.lua" />
 	<rune name="Heavy Magic Missile" id="3198" allowfaruse="1" charges="10" maglv="3" needtarget="1" blocktype="solid" script="runes/heavy magic missile.lua" />
 	<rune name="Explosion" id="3200" allowfaruse="1" charges="6" maglv="6" blocktype="solid" script="runes/explosion.lua" />
