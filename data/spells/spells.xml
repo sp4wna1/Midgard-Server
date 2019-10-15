@@ -330,7 +330,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Poison Wall" words="adevo mas grav pox" lvl="29" mana="640" soul="3" reagentId="3147" conjureId="3176" conjureCount="4" needlearn="0" function="conjureRune">
+	<conjure name="Poison Wall" words="adevo mas grav pox" lvl="29" maglv="11" mana="160" soul="3" reagentId="3147" conjureId="3176" conjureCount="4" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
