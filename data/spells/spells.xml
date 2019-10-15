@@ -126,7 +126,7 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Elite Knight" />
 	</instant>
-	<instant name="Energy Strike" words="exori vis" lvl="12" mana="20" prem="1" cooldown="1000" range="3" direction="1" blockwalls="1" needlearn="0" script="spells/energy strike.lua">
+	<instant name="Energy Strike" words="exori vis" lvl="12" maglv="3" mana="20" prem="1" cooldown="1000" range="3" direction="1" blockwalls="1" needlearn="0" script="spells/energy strike.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
