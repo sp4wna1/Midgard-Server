@@ -5,7 +5,7 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
-	<instant name="Fire Wave" words="exevo flam hur" lvl="18" mana="80" direction="1" needlearn="0" script="spells/fire wave.lua">
+	<instant name="Fire Wave" words="exevo flam hur" lvl="18" maglv="3" mana="80" direction="1" needlearn="0" script="spells/fire wave.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
