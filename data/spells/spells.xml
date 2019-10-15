@@ -258,7 +258,7 @@
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" />
 	</conjure>
-	<conjure name="Conjure Explosive Arrow" words="exevo con flam" lvl="25" mana="290" soul="3" conjureId="3449" conjureCount="8" needlearn="0" function="conjureItem">
+	<conjure name="Conjure Explosive Arrow" words="exevo con flam" lvl="25" maglv="10" mana="120" soul="3" conjureId="3449" conjureCount="5" needlearn="0" function="conjureItem">
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" />
 	</conjure>
