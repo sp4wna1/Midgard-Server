@@ -336,7 +336,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Explosion" words="adevo mas hur" lvl="31" mana="720" soul="4" reagentId="3147" conjureId="3200" conjureCount="6" needlearn="0" function="conjureRune">
+	<conjure name="Explosion" words="adevo mas hur" lvl="31" maglv="12" mana="180" soul="4" reagentId="3147" conjureId="3200" conjureCount="3" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
