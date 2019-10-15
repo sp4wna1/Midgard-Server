@@ -116,7 +116,7 @@
 		<vocation name="Elder Druid" />
 		<vocation name="Royal Paladin" />
 	</instant>
-	<instant name="Levitate" words="exani hur" lvl="12" mana="50" prem="1" aggressive="0" params="1" needlearn="0" function="Levitate">
+	<instant name="Levitate" words="exani hur" lvl="12" maglv="3" mana="50" prem="1" aggressive="0" params="1" needlearn="0" function="Levitate">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Paladin" />
