@@ -348,7 +348,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Energybomb" words="adevo mas vis" lvl="37" mana="880" soul="5" prem="1" reagentId="3147" conjureId="3151" conjureCount="2" needlearn="0" function="conjureRune">
+	<conjure name="Energybomb" words="adevo mas vis" lvl="37" maglv="18" mana="220" soul="5" prem="1" reagentId="3147" conjureId="3151" conjureCount="2" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</conjure>
