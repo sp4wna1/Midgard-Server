@@ -412,7 +412,7 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Paralyze" words="adana ani" lvl="54" mana="1400" soul="3" prem="1" reagentId="3147" conjureId="3165" conjureCount="1" needlearn="0" function="conjureRune">
+	<conjure name="Paralyze" words="adana ani" lvl="54" maglv="35" mana="900" soul="3" prem="1" reagentId="3147" conjureId="3165" conjureCount="1" needlearn="0" function="conjureRune">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
