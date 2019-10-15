@@ -35,7 +35,7 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant name="Undead Legion" words="exana mas mort" lvl="30" mana="500" prem="1" aggressive="1" needlearn="0" script="spells/undead legion.lua">
+	<instant name="Undead Legion" words="exana mas mort" lvl="30" maglv="15" mana="300" prem="1" aggressive="1" needlearn="0" script="spells/undead legion.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
