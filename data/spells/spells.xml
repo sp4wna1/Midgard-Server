@@ -43,7 +43,7 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant name="Poison Storm" words="exevo gran mas pox" lvl="50" mana="600" prem="1" aggressive="1" needlearn="0" script="spells/poison storm.lua">
+	<instant name="Poison Storm" words="exevo gran mas pox" lvl="50" maglv="28" mana="600" prem="1" aggressive="1" needlearn="0" script="spells/poison storm.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
