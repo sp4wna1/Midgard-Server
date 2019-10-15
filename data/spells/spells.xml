@@ -408,7 +408,7 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</conjure>
-	<conjure name="Wild Growth" words="exevo grav vita" lvl="27" mana="220" soul="5" prem="1" reagentId="3147" conjureId="3156" conjureCount="2" needlearn="0" function="conjureRune">
+	<conjure name="Wild Growth" words="exevo grav vita" lvl="27" maglv="13" mana="220" soul="5" prem="1" reagentId="3147" conjureId="3156" conjureCount="2" needlearn="0" function="conjureRune">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
