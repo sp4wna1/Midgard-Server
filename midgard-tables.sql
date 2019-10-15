@@ -86,7 +86,9 @@ CREATE TABLE `guilds` (
   `id` int(11) NOT NULL,
   `name` varchar(255) NOT NULL,
   `ownerid` int(11) NOT NULL,
-  `creationdata` int(11) NOT NULL
+  `creationdata` int(11) NOT NULL,
+  `description` varchar(1000),
+  `guild_logo` blob
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
