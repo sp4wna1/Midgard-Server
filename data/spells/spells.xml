@@ -154,7 +154,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant name="Haste" words="utani hur" lvl="14" mana="60" prem="1" aggressive="0" selftarget="1" needlearn="0" script="spells/haste.lua">
+	<instant name="Haste" words="utani hur" lvl="14" maglv="4" mana="60" prem="1" aggressive="0" selftarget="1" needlearn="0" script="spells/haste.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Paladin" />
