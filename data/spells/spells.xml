@@ -396,7 +396,7 @@
 		<vocation name="Elder Druid" />
 		<vocation name="Royal Paladin" />
 	</conjure>
-	<conjure name="Desintegrate" words="adito tera" lvl="21" mana="200" soul="3" prem="1" reagentId="3147" conjureId="3197" blocking="false" conjureCount="3" needlearn="0" function="conjureRune">
+	<conjure name="Desintegrate" words="adito tera" lvl="21" maglv="8" mana="100" soul="3" prem="1" reagentId="3147" conjureId="3197" blocking="false" conjureCount="3" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Paladin" />
