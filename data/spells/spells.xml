@@ -9,7 +9,7 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
-	<instant name="Energy Beam" words="exevo vis lux" lvl="23" mana="100" direction="1" needlearn="0" script="spells/energy beam.lua">
+	<instant name="Energy Beam" words="exevo vis lux" lvl="23" maglv="10" mana="100" direction="1" needlearn="0" script="spells/energy beam.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
