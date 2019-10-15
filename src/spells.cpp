@@ -534,11 +534,12 @@ bool Spell::playerSpellCheck(Player* player) const
 		return false;
 	}
 
+	/*
 	if (player->getLevel() < level) {
 		player->sendCancelMessage(RETURNVALUE_NOTENOUGHLEVEL);
 		g_game.addMagicEffect(player->getPosition(), CONST_ME_POFF);
 		return false;
-	}
+	} */
 
 	if (player->getMagicLevel() < magLevel) {
 		player->sendCancelMessage(RETURNVALUE_NOTENOUGHMAGICLEVEL);
