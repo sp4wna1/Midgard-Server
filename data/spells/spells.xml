@@ -404,7 +404,7 @@
 		<vocation name="Elder Druid" />
 		<vocation name="Royal Paladin" />
 	</conjure>
-	<conjure name="Magic Wall" words="adevo grav tera" lvl="32" mana="750" soul="5" prem="1" reagentId="3147" conjureId="3180" conjureCount="3" needlearn="0" function="conjureRune">
+	<conjure name="Magic Wall" words="adevo grav tera" lvl="32" maglv="14" mana="250" soul="5" prem="1" reagentId="3147" conjureId="3180" conjureCount="4" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</conjure>
