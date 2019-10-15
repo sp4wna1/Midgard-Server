@@ -164,7 +164,7 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Elite Knight" />
 	</instant>
-	<instant name="Ultimate Healing" words="exura vita" lvl="20" mana="160" aggressive="0" selftarget="1" needlearn="0" script="spells/ultimate healing.lua">
+	<instant name="Ultimate Healing" words="exura vita" lvl="20" maglv="8" mana="80" aggressive="0" selftarget="1" needlearn="0" script="spells/ultimate healing.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
