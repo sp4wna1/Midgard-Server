@@ -352,7 +352,7 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</conjure>
-	<conjure name="Energy Wall" words="adevo mas grav vis" lvl="41" mana="1000" soul="5" reagentId="3147" conjureId="3166" conjureCount="4" needlearn="0" function="conjureRune">
+	<conjure name="Energy Wall" words="adevo mas grav vis" lvl="41" maglv="18" mana="250" soul="5" reagentId="3147" conjureId="3166" conjureCount="4" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
