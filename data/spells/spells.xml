@@ -98,15 +98,15 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Elite Knight" />
 	</instant>
-	<instant name="Antidote" words="exana pox" lvl="10" mana="30" aggressive="0" selftarget="1" needlearn="0" script="spells/antidote.lua">
-			<vocation name="Sorcerer" />
-			<vocation name="Druid" />
-			<vocation name="Paladin" />
-			<vocation name="Knight" />
-			<vocation name="Master Sorcerer" />
-			<vocation name="Elder Druid" />
-			<vocation name="Royal Paladin" />
-			<vocation name="Elite Knight" />
+	<instant name="Antidote" words="exana pox" lvl="10" maglv="2" mana="30" aggressive="0" selftarget="1" needlearn="0" script="spells/antidote.lua">
+		<vocation name="Sorcerer" />
+		<vocation name="Druid" />
+		<vocation name="Paladin" />
+		<vocation name="Knight" />
+		<vocation name="Master Sorcerer" />
+		<vocation name="Elder Druid" />
+		<vocation name="Royal Paladin" />
+		<vocation name="Elite Knight" />
 	</instant>
 	<instant name="Intense Healing" words="exura gran" lvl="11" mana="40" aggressive="0" selftarget="1" needlearn="0" script="spells/intense healing.lua">
 		<vocation name="Sorcerer" />
