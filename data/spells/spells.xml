@@ -310,7 +310,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Great Fireball" words="adori gran flam" lvl="23" mana="480" soul="3" reagentId="3147" conjureId="3191" conjureCount="2" needlearn="0" function="conjureRune">
+	<conjure name="Great Fireball" words="adori gran flam" lvl="23" maglv="9" mana="120" soul="3" reagentId="3147" conjureId="3191" conjureCount="2" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</conjure>
