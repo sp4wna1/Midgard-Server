@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spells>
 	<!-- Sorcerer Spells -->
-	<instant name="Force Strike" words="exori mort" lvl="16" mana="20" prem="1" cooldown="1000" range="3" direction="1" blockwalls="1" needlearn="0" script="spells/force strike.lua">
+	<instant name="Force Strike" words="exori mort" lvl="16" maglv="2" mana="20" prem="1" cooldown="1000" range="3" direction="1" blockwalls="1" needlearn="0" script="spells/force strike.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
