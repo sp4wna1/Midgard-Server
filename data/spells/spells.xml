@@ -374,7 +374,7 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Convince Creature" words="adeta sio" lvl="16" mana="200" soul="3" reagentId="3147" conjureId="3177" conjureCount="1" needlearn="0" function="conjureRune">
+	<conjure name="Convince Creature" words="adeta sio" lvl="16" maglv="10" mana="100" soul="3" reagentId="3147" conjureId="3177" conjureCount="1" needlearn="0" function="conjureRune">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
