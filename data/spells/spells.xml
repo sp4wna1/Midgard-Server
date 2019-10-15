@@ -108,7 +108,7 @@
 		<vocation name="Royal Paladin" />
 		<vocation name="Elite Knight" />
 	</instant>
-	<instant name="Intense Healing" words="exura gran" lvl="11" mana="40" aggressive="0" selftarget="1" needlearn="0" script="spells/intense healing.lua">
+	<instant name="Intense Healing" words="exura gran" lvl="11" maglv="2" mana="40" aggressive="0" selftarget="1" needlearn="0" script="spells/intense healing.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Paladin" />
