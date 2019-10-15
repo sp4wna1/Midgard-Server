@@ -233,7 +233,7 @@
 	<rune name="Intense Healing Rune" id="3152" allowfaruse="1" charges="1" maglv="2" aggressive="0" needtarget="1" blocktype="solid" script="runes/intense healing.lua" />
 	<rune name="Ultimate Healing Rune" id="3160" allowfaruse="1" charges="1" maglv="4" aggressive="0" needtarget="1" blocktype="solid" script="runes/ultimate healing.lua" />
 	<rune name="Convince Creature" id="3177" allowfaruse="1" charges="1" maglv="5" needtarget="1" blocktype="solid" function="convince" />
-	
+
 	<!-- Support Rune Spells -->
 	<rune name="Animate Dead" id="3203" allowfaruse="1" charges="1" maglv="4" script="runes/animate dead.lua" />
 	<rune name="Disintegrate" id="3197" allowfaruse="0" charges="3" maglv="4" blocking="false" range="1" script="runes/disintegrate.lua" />
@@ -244,7 +244,7 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" showInDescription="0" />
 	</rune>
-	<rune name="Paralyze" id="3165" allowfaruse="1" charges="1" maglv="18" mana="1400" needtarget="1" blocktype="solid" script="runes/paralyze.lua">
+	<rune name="Paralyze" id="3165" allowfaruse="1" charges="1" maglv="35" mana="900" needtarget="1" blocktype="solid" script="runes/paralyze.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" showInDescription="0" />
 	</rune>
