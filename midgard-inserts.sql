@@ -29,7 +29,7 @@ VALUES('974294', SHA1('Ft3JLYGPt25I'), 'gasp4wna1@gmail.com', 1, 0, current_date
 --
 
 INSERT INTO `players`(`name`, `group_id`, `account_id`, `level`, `vocation`, `health`, `healthmax`, `experience`, `lookbody`, `lookfeet`, `lookhead`, `looklegs`, `looktype`, `maglevel`, `mana`, `manamax`, `manaspent`, `soul`, `town_id`, `posx`, `posy`, `posz`, `conditions`, `cap`, `sex`, `lastlogin`, `lastip`, `save`, `skull`, `skulltime`, `lastlogout`, `blessings`, `onlinetime`, `deletion`, `balance`, `skill_fist`, `skill_fist_tries`, `skill_club`, `skill_club_tries`, `skill_sword`, `skill_sword_tries`, `skill_axe`, `skill_axe_tries`, `skill_dist`, `skill_dist_tries`, `skill_shielding`, `skill_shielding_tries`, `skill_fishing`, `skill_fishing_tries`, `deleted`, `create_date`, `comment`, `hide_char`)
-VALUES('Rook Sample', 1, 974294,  1, 0, 185, 185, 0, 44, 98, 15, 76, 128, 0, 35, 35, 0, 100, 11, 32097, 32219, 7, null, 350, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 10, 0, 10, 0, 10 , 0, 10, 0, 10 , 0, 10, 0, 10, 0, 0, current_date(), null, 1);
+VALUES('Rook Sample', 1, 974294,  1, 0, 150, 150, 0, 44, 98, 15, 76, 128, 0, 0, 0, 0, 100, 11, 32097, 32219, 7, null, 400, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 10, 0, 10, 0, 10 , 0, 10, 0, 10 , 0, 10, 0, 10, 0, 0, current_date(), '', 1);
 
 -- --------------------------------------------------------
 --
