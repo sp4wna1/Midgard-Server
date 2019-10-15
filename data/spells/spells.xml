@@ -366,7 +366,7 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Intense Healing Rune" words="adura gran" lvl="15" mana="240" soul="2" reagentId="3147" conjureId="3152" conjureCount="1" needlearn="0" function="conjureRune">
+	<conjure name="Intense Healing Rune" words="adura gran" lvl="15" maglv="4" mana="60" soul="2" reagentId="3147" conjureId="3152" conjureCount="1" needlearn="0" function="conjureRune">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
