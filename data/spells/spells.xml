@@ -262,7 +262,7 @@
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" />
 	</conjure>
-	<conjure name="Conjure Bolt" words="exevo con mort" lvl="17" mana="140" soul="2" prem="1" conjureId="3446" conjureCount="5" needlearn="0" function="conjureItem">
+	<conjure name="Conjure Bolt" words="exevo con mort" lvl="17" maglv="6" mana="70" soul="2" prem="1" conjureId="3446" conjureCount="10" needlearn="0" function="conjureItem">
 		<vocation name="Paladin" />
 		<vocation name="Royal Paladin" />
 	</conjure>
