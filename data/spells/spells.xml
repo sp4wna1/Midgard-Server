@@ -290,7 +290,7 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Fire Field" words="adevo grav flam" lvl="15" mana="240" soul="1" reagentId="3147" conjureId="3188" conjureCount="3" needlearn="0" function="conjureRune">
+	<conjure name="Fire Field" words="adevo grav flam" lvl="15" maglv="3" mana="60" soul="1" reagentId="3147" conjureId="3188" conjureCount="3" needlearn="0" function="conjureRune">
 		<vocation name="Sorcerer" />
 		<vocation name="Druid" />
 		<vocation name="Master Sorcerer" />
