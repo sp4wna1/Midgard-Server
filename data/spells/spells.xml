@@ -384,7 +384,7 @@
 		<vocation name="Master Sorcerer" />
 		<vocation name="Elder Druid" />
 	</conjure>
-	<conjure name="Chameleon" words="adevo ina" lvl="27" mana="600" soul="2" reagentId="3147" conjureId="3178" conjureCount="1" needlearn="0" function="conjureRune">
+	<conjure name="Chameleon" words="adevo ina" lvl="27" maglv="11" mana="150" soul="2" reagentId="3147" conjureId="3178" conjureCount="1" needlearn="0" function="conjureRune">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
