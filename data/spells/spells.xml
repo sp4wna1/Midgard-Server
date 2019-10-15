@@ -17,7 +17,7 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
-	<instant name="Energy Wave" words="exevo mort hur" lvl="38" mana="250" direction="1" needlearn="0" script="spells/energy wave.lua">
+	<instant name="Energy Wave" words="exevo mort hur" lvl="38" maglv="20" mana="250" direction="1" needlearn="0" script="spells/energy wave.lua">
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</instant>
