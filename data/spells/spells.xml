@@ -39,7 +39,7 @@
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
-	<instant name="Mass Healing" words="exura gran mas res" lvl="36" mana="150" prem="1" aggressive="0" needlearn="0" script="spells/mass healing.lua">
+	<instant name="Mass Healing" words="exura gran mas res" lvl="36" maglv="19" mana="150" prem="1" aggressive="0" needlearn="0" script="spells/mass healing.lua">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</instant>
