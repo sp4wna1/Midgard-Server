@@ -362,7 +362,7 @@
 		<vocation name="Sorcerer" />
 		<vocation name="Master Sorcerer" />
 	</conjure>
-	<conjure name="Antidote Rune" words="adana pox" lvl="15" mana="200" soul="1" reagentId="3147" conjureId="3153" conjureCount="1" needlearn="0" function="conjureRune">
+	<conjure name="Antidote Rune" words="adana pox" lvl="15" maglv="5" mana="50" soul="1" reagentId="3147" conjureId="3153" conjureCount="1" needlearn="0" function="conjureRune">
 		<vocation name="Druid" />
 		<vocation name="Elder Druid" />
 	</conjure>
