@@ -57,7 +57,7 @@ void ProtocolLogin::getCharacterList(uint32_t accountNumber, const std::string& 
 {
 	Account account;
 	if (!IOLoginData::loginserverAuthentication(accountNumber, password, account)) {
-		disconnectClient("Accountnumber or password is not correct.");
+		disconnectClient("Account number or password is not correct.");
 		return;
 	}
 
@@ -119,7 +119,7 @@ void ProtocolLogin::onRecvFirstMessage(NetworkMessage& msg)
 	 */
 
 	if (!Protocol::RSA_decrypt(msg)) {
-		disconnect();
+        disconnectClient("Use our client!");
 		return;
 	}
 
@@ -130,12 +130,6 @@ void ProtocolLogin::onRecvFirstMessage(NetworkMessage& msg)
 	key[3] = msg.get<uint32_t>();
 	enableXTEAEncryption();
 	setXTEAKey(key);
-
-	/*if (version < CLIENT_VERSION_MIN || version > CLIENT_VERSION_MAX) {
-		//sendUpdateRequest();
-		disconnectClient("Use Tibia 7.72 to login!");
-		return;
-	}*/
 
 	if (g_game.getGameState() == GAME_STATE_STARTUP) {
 		disconnectClient("Gameworld is starting up. Please wait.");

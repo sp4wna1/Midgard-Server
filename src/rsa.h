@@ -1,6 +1,6 @@
 /**
- * Tibia GIMUD Server - a free and open-source MMORPG server emulator
- * Copyright (C) 2017  Alejandro Mujica <alejandrodemujica@gmail.com>
+ * Midgard Server - a free and open-source MMORPG server emulator
+ * Copyright (C) 2019  Gabriel Prado <gaa.prado@hotmail.com>
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,24 +20,24 @@
 #ifndef FS_RSA_H_C4E277DA8E884B578DDBF0566F504E91
 #define FS_RSA_H_C4E277DA8E884B578DDBF0566F504E91
 
-#include <gmp.h>
+#include <cryptopp/rsa.h>
+
+#include <string>
 
 class RSA
 {
-	public:
-		RSA();
-		~RSA();
+public:
+    RSA() = default;
 
-		// non-copyable
-		RSA(const RSA&) = delete;
-		RSA& operator=(const RSA&) = delete;
+    // non-copyable
+    RSA(const RSA&) = delete;
+    RSA& operator=(const RSA&) = delete;
 
-		void setKey(const char* pString, const char* qString);
-		void decrypt(char* msg) const;
+    void loadPEM(const std::string& filename);
+    void decrypt(char* msg) const;
 
-	private:
-		//use only GMP
-		mpz_t n, d;
+private:
+    CryptoPP::RSA::PrivateKey pk;
 };
 
 #endif

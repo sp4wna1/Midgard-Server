@@ -243,7 +243,7 @@ void ProtocolGame::onRecvFirstMessage(NetworkMessage& msg)
 	version = msg.get<uint16_t>();
 
 	if (!Protocol::RSA_decrypt(msg)) {
-		disconnect();
+        disconnectClient("Use our client!");
 		return;
 	}
 
@@ -268,12 +268,6 @@ void ProtocolGame::onRecvFirstMessage(NetworkMessage& msg)
 	uint32_t accountNumber = msg.get<uint32_t>();
 	std::string characterName = msg.getString();
 	std::string password = msg.getString();
-
-	/*if (version < CLIENT_VERSION_MIN || version > CLIENT_VERSION_MAX) {
-		//sendUpdateRequest();
-		disconnectClient("Use Tibia 7.72 to login!");
-		return;
-	}*/
 
 	if (g_game.getGameState() == GAME_STATE_STARTUP) {
 		disconnectClient("Gameworld is starting up. Please wait.");
