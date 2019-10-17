@@ -1,0 +1,1 @@
+Format = ("data/reports/%s-%s-%d.txt", name, targetName, reportType)
