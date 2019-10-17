@@ -12804,32 +12804,32 @@ Attributes  = {Weight=300}
 
 TypeID      = 2886
 Name        = "a pool"
-Flags       = {Bottom,Splash,Unmove,Expire}
+Flags       = {Top,Splash,Unmove,Expire}
 Attributes  = {ExpireTarget=2887,TotalExpireTime=120}
 
 TypeID      = 2887
 Name        = "a pool"
-Flags       = {Bottom,Splash,Unmove,Expire}
+Flags       = {Top,Splash,Unmove,Expire}
 Attributes  = {ExpireTarget=2888,TotalExpireTime=120}
 
 TypeID      = 2888
 Name        = "a pool"
-Flags       = {Bottom,Splash,Unmove,Expire}
+Flags       = {Top,Splash,Unmove,Expire}
 Attributes  = {ExpireTarget=0,TotalExpireTime=120}
 
 TypeID      = 2889
 Name        = "a pool"
-Flags       = {Bottom,Splash,Unmove,Expire}
+Flags       = {Top,Splash,Unmove,Expire}
 Attributes  = {ExpireTarget=2890,TotalExpireTime=120}
 
 TypeID      = 2890
 Name        = "a pool"
-Flags       = {Bottom,Splash,Unmove,Expire}
+Flags       = {Top,Splash,Unmove,Expire}
 Attributes  = {ExpireTarget=2891,TotalExpireTime=120}
 
 TypeID      = 2891
 Name        = "a pool"
-Flags       = {Bottom,Splash,Unmove,Expire}
+Flags       = {Top,Splash,Unmove,Expire}
 Attributes  = {ExpireTarget=0,TotalExpireTime=120}
 
 TypeID      = 2892
@@ -12849,27 +12849,27 @@ Attributes  = {Weight=250}
 
 TypeID      = 2895
 Name        = "a pool"
-Flags       = {Bottom,Splash,Unmove}
+Flags       = {Top,Splash,Unmove}
 
 TypeID      = 2896
 Name        = "a pool"
-Flags       = {Bottom,Splash,Unmove}
+Flags       = {Top,Splash,Unmove}
 
 TypeID      = 2897
 Name        = "a pool"
-Flags       = {Bottom,Splash,Unmove}
+Flags       = {Top,Splash,Unmove}
 
 TypeID      = 2898
 Name        = "a pool"
-Flags       = {Bottom,Splash,Unmove}
+Flags       = {Top,Splash,Unmove}
 
 TypeID      = 2899
 Name        = "a pool"
-Flags       = {Bottom,Splash,Unmove}
+Flags       = {Top,Splash,Unmove}
 
 TypeID      = 2900
 Name        = "a pool"
-Flags       = {Bottom,Splash,Unmove}
+Flags       = {Top,Splash,Unmove}
 
 TypeID      = 2901
 Name        = "a waterskin"
