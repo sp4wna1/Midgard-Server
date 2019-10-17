@@ -91,9 +91,9 @@ bool Spawns::loadFromXml(const std::string& filename)
 
 				uint32_t interval = pugi::cast<uint32_t>(childNode.attribute("spawntime").value()) * 1000;
 				if (interval > MINSPAWN_INTERVAL) {
-					uint32_t exInterval = g_config.getNumber(ConfigManager::RATE_SPAWN);
-					if (exInterval) {
-						spawn.addMonster(nameAttribute.as_string(), pos, dir, exInterval * 1000);
+					uint32_t rateSpawn = g_config.getNumber(ConfigManager::RATE_SPAWN);
+					if (rateSpawn) {
+						spawn.addMonster(nameAttribute.as_string(), pos, dir, rateSpawn * interval);
 					} else {
 						spawn.addMonster(nameAttribute.as_string(), pos, dir, interval);
 					}
