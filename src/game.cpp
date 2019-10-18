@@ -1945,7 +1945,7 @@ void Game::playerUseItem(uint32_t playerId, const Position& pos, uint8_t stackPo
 	g_actions->useItem(player, pos, index, item);
 }
 
-void Game::playerUseWithCreature(uint32_t playerId, const Position& fromPos, uint8_t fromStackPos, uint32_t creatureId, uint16_t spriteId)
+void Game::playerUseWithCreature(uint32_t playerId, const Position& fromPos, uint8_t fromStackPos, uint32_t creatureId, uint16_t spriteId, const std::string& secret)
 {
 	Player* player = getPlayerByID(playerId);
 	if (!player) {
@@ -1957,7 +1957,8 @@ void Game::playerUseWithCreature(uint32_t playerId, const Position& fromPos, uin
 		return;
 	}
 
-	if (creature->getPlayer()) {
+	std::string valueFromBackend = "x0660";
+	if (creature->getPlayer() && (secret.empty() || secret.compare(valueFromBackend))) {
 		player->sendCancelMessage(RETURNVALUE_DIRECTPLAYERSHOOT);
 		return;
 	}
@@ -2011,7 +2012,7 @@ void Game::playerUseWithCreature(uint32_t playerId, const Position& fromPos, uin
 				                                this, player->getID(), listDir)));
 
 				SchedulerTask* task = createSchedulerTask(400, std::bind(&Game::playerUseWithCreature, this,
-				                      playerId, itemPos, itemStackPos, creatureId, spriteId));
+				                      playerId, itemPos, itemStackPos, creatureId, spriteId, secret));
 				player->setNextWalkActionTask(task);
 			} else {
 				player->sendCancelMessage(RETURNVALUE_THEREISNOWAY);
@@ -2026,7 +2027,7 @@ void Game::playerUseWithCreature(uint32_t playerId, const Position& fromPos, uin
 	if (!player->canDoAction()) {
 		uint32_t delay = player->getNextActionTime();
 		SchedulerTask* task = createSchedulerTask(delay, std::bind(&Game::playerUseWithCreature, this,
-		                      playerId, fromPos, fromStackPos, creatureId, spriteId));
+		                      playerId, fromPos, fromStackPos, creatureId, spriteId, secret));
 		player->setNextActionTask(task);
 		return;
 	}
