@@ -57,7 +57,7 @@ mapAuthor = "CipSoft"
 
 -- MySQL
 sqlType = "mysql"
-mysqlHost = "127.0.0.1"
+mysqlHost = "54.94.135.178"
 mysqlUser = "root"
 mysqlPass = "vnKu7Cq$S5o8Z9HcEePcw"
 mysqlDatabase = "midgard"
