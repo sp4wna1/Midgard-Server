@@ -103,6 +103,6 @@ startupDatabaseOptimization = true
 
 -- Status server information
 ownerName = "Gabriel Prado"
-ownerEmail = "gaa.prado@hotmail.com"
-url = "https://otland.net/"
+ownerEmail = "gabriel@midgard.com.br"
+url = "http://www.midgard.com.br"
 location = "Brazil"
