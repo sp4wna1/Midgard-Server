@@ -57,9 +57,9 @@ mapAuthor = "CipSoft"
 
 -- MySQL
 sqlType = "mysql"
-mysqlHost = "127.0.0.1"
-mysqlUser = "root"
-mysqlPass = "vnKu7Cq$S5o8Z9HcEePcw"
+mysqlHost = "midgard.com.br"
+mysqlUser = "spawn"
+mysqlPass = "!8sunt4O$XyS@jgv08ETqSH0mUNPmdjlI"
 mysqlDatabase = "midgard"
 mysqlPort = 3306
 mysqlSock = ""
@@ -103,6 +103,6 @@ startupDatabaseOptimization = true
 
 -- Status server information
 ownerName = "Gabriel Prado"
-ownerEmail = "gaa.prado@hotmail.com"
-url = "https://otland.net/"
+ownerEmail = "gabriel@midgard.com.br"
+url = "http://www.midgard.com.br"
 location = "Brazil"
