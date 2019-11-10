@@ -57,7 +57,7 @@ mapAuthor = "CipSoft"
 
 -- MySQL
 sqlType = "mysql"
-mysqlHost = "localhost"
+mysqlHost = "midgard.com.br"
 mysqlUser = "spawn"
 mysqlPass = "!8sunt4O$XyS@jgv08ETqSH0mUNPmdjlI"
 mysqlDatabase = "midgard"
