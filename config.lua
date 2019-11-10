@@ -21,7 +21,7 @@ killsMonthBanishment = 20
 
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit
-ip = "54.94.135.178"
+ip = "18.229.124.12"
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
 gameProtocolPort = 7172
@@ -57,7 +57,7 @@ mapAuthor = "CipSoft"
 
 -- MySQL
 sqlType = "mysql"
-mysqlHost = "midgard.com.br"
+mysqlHost = "localhost"
 mysqlUser = "spawn"
 mysqlPass = "!8sunt4O$XyS@jgv08ETqSH0mUNPmdjlI"
 mysqlDatabase = "midgard"
