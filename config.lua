@@ -58,8 +58,8 @@ mapAuthor = "CipSoft"
 -- MySQL
 sqlType = "mysql"
 mysqlHost = "midgard.com.br"
-mysqlUser = "spawna1"
-mysqlPass = "74&8YGeO%I0HB"
+mysqlUser = "spawn"
+mysqlPass = "!8sunt4O$XyS@jgv08ETqSH0mUNPmdjlI"
 mysqlDatabase = "midgard"
 mysqlPort = 3306
 mysqlSock = "/var/run/mysqld/mysqld.sock"
