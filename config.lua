@@ -21,7 +21,7 @@ killsMonthBanishment = 20
 
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit
-ip = "18.229.124.12"
+ip = "45.231.132.211"
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
 gameProtocolPort = 7172
@@ -59,7 +59,7 @@ mapAuthor = "CipSoft"
 sqlType = "mysql"
 mysqlHost = "midgard.com.br"
 mysqlUser = "spawn"
-mysqlPass = "!8sunt4O$XyS@jgv08ETqSH0mUNPmdjlI"
+mysqlPass = "74&8YGeO%I0HB"
 mysqlDatabase = "midgard"
 mysqlPort = 3306
 mysqlSock = ""
@@ -83,7 +83,7 @@ newbieLevelThreshold = 5
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
 rateExp = 1
 rateSkill = 5
-rateLoot = 3
+rateLoot = 2
 rateMagic = 5
 rateSpawn = 1
 
@@ -104,5 +104,5 @@ startupDatabaseOptimization = true
 -- Status server information
 ownerName = "Gabriel Prado"
 ownerEmail = "gabriel@midgard.com.br"
-url = "http://www.midgard.com.br"
+url = "https://www.midgard.com.br"
 location = "Brazil"
