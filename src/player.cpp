@@ -2743,15 +2743,15 @@ uint32_t Player::checkPlayerKilling()
 		lastMonth = egibleMurders;
 	}
 
-	if (lastDay >= g_config.getNumber(ConfigManager::KILLS_DAY_BANISHMENT) ||
-		lastWeek >= g_config.getNumber(ConfigManager::KILLS_WEEK_BANISHMENT) ||
-		lastMonth >= g_config.getNumber(ConfigManager::KILLS_MONTH_BANISHMENT)) {
+	if (((int32_t) lastDay) >= g_config.getNumber(ConfigManager::KILLS_DAY_BANISHMENT) ||
+		((int32_t) lastWeek) >= g_config.getNumber(ConfigManager::KILLS_WEEK_BANISHMENT) ||
+		((int32_t) lastMonth) >= g_config.getNumber(ConfigManager::KILLS_MONTH_BANISHMENT)) {
 		return 2; // banishment!
 	}
 
-	if (lastDay >= g_config.getNumber(ConfigManager::KILLS_DAY_RED_SKULL) || 
-		lastWeek >= g_config.getNumber(ConfigManager::KILLS_WEEK_RED_SKULL) || 
-		lastMonth >= g_config.getNumber(ConfigManager::KILLS_MONTH_RED_SKULL)) {
+	if (((int32_t) lastDay) >= g_config.getNumber(ConfigManager::KILLS_DAY_RED_SKULL) ||
+		((int32_t) lastWeek) >= g_config.getNumber(ConfigManager::KILLS_WEEK_RED_SKULL) ||
+		((int32_t) lastMonth) >= g_config.getNumber(ConfigManager::KILLS_MONTH_RED_SKULL)) {
 		return 1; // red skull!
 	}
 
