@@ -62,7 +62,7 @@ mysqlUser = "spawna1"
 mysqlPass = "74&8YGeO%I0HB"
 mysqlDatabase = "midgard"
 mysqlPort = 3306
-mysqlSock = ""
+mysqlSock = "/var/run/mysqld/mysqld.sock"
 encryptionType = "sha1"
 
 -- Misc.
