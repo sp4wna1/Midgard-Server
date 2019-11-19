@@ -884,7 +884,7 @@ bool Combat::closeAttack(Creature* attacker, Creature* target, fightMode_t fight
 		if (poison) {
 			int32_t randTest = rand();
 
-			if (hit || (-totalDamage > defense) && (randTest == 5 * (randTest / 5))) {
+			if (hit || ((-totalDamage > defense) && (randTest == (5 * (randTest / 5))))) {
 				poison = normal_random(poison / 2, poison);
 				if (poison) {
 					ConditionDamage* condition = static_cast<ConditionDamage*>(Condition::createCondition(CONDITIONID_COMBAT, CONDITION_POISON, 0, 0));
@@ -1037,7 +1037,7 @@ bool Combat::rangeAttack(Creature* attacker, Creature* target, fightMode_t fight
 
 		bool hit = false;
 
-		if (rand() % distance <= skillValue) {
+		if (rand() % distance <= ((int32_t) skillValue)) {
 			hit = rand() % 100 <= hitChance;
 		}
 
@@ -1243,7 +1243,7 @@ bool Combat::canUseWeapon(Player* player, Item* weapon)
 		return false;
 	}
 
-	if (!player->hasFlag(PlayerFlag_HasInfiniteMana) && player->getMana() < weapon->getManaConsumption()) {
+	if (!player->hasFlag(PlayerFlag_HasInfiniteMana) && ((int32_t) player->getMana()) < weapon->getManaConsumption()) {
 		return false;
 	}
 
