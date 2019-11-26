@@ -39,10 +39,7 @@ VANISH,!           -> "Daraman's blessings."
  
 "deposit" -> "I will pay you 5 gold for every empty vial. Ok?", Data=0, Topic=6 
 "vial"    -> *
-"flask"   -> * 
-
-@"gen-t-runes-free-s.ndb"
-@"gen-t-wands-prem-s.ndb"
+"flask"   -> *
  
 Topic=4,"yes",CountMoney>=Price -> "Here you are.", DeleteMoney, Create(Type)
 Topic=4,"yes"                   -> "Come back, when you have enough money."

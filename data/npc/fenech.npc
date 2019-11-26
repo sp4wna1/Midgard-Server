@@ -61,7 +61,4 @@ VANISH,!           -> "May enlightenment be your path."
 Topic=1,"yes",CountMoney>=Price -> "Here you are.", DeleteMoney, Create(Type)
 Topic=1,"yes"                   -> "Come back, when you have enough money."
 Topic=1                         -> "Maybe next time."
-
-@"gen-t-runes-free-s.ndb"
-@"gen-t-wands-prem-s.ndb"
 }

@@ -46,7 +46,4 @@ VANISH,!           -> "Bye."
 Topic=1,"yes",CountMoney>=Price -> "And here it isssss! Almost like magiiiic, isn't it?", DeleteMoney, Create(Type)
 Topic=1,"yes"                   -> "Sorry, too many buttonssss and not enough gold in your pursssse."
 Topic=1                         -> "Better not annoy a FRANS if you don't want to deeeeal with him!"
-
-@"gen-t-runes-free-s.ndb"
-@"gen-t-wands-free-s.ndb"
 }

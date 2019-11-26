@@ -72,7 +72,4 @@ Topic=6,"yes",Count(Type)>=Amount -> "Ok. Here is your money.", Delete(Type), Cr
 Topic=6,"yes"                             -> "Sorry, you do not have one."
 Topic=6,"yes", Amount>1                   -> "Sorry, you do not have so many."
 Topic=6                                   -> "Maybe next time."
-
-@"gen-t-runes-free-s.ndb"
-@"gen-t-wands-free-s.ndb"
 }
