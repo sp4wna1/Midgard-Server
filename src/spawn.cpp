@@ -93,9 +93,9 @@ bool Spawns::loadFromXml(const std::string& filename)
 				if (interval > MINSPAWN_INTERVAL) {
 					uint32_t rateSpawn = g_config.getNumber(ConfigManager::RATE_SPAWN);
 					if (rateSpawn) {
-						spawn.addMonster(nameAttribute.as_string(), pos, dir, rateSpawn * interval);
+						spawn.addMonster(nameAttribute.as_string(), pos, dir, rateSpawn * (interval / 2));
 					} else {
-						spawn.addMonster(nameAttribute.as_string(), pos, dir, interval);
+						spawn.addMonster(nameAttribute.as_string(), pos, dir, (interval / 2));
 					}
 				} else {
 					std::cout << "[Warning - Spawns::loadFromXml] " << nameAttribute.as_string() << ' ' << pos << " spawntime can not be less than " << MINSPAWN_INTERVAL / 1000 << " seconds." << std::endl;
