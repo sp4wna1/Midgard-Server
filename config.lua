@@ -12,12 +12,12 @@ expFromPlayersLevelRange = 75
 banLength = 30 * 24 * 60 * 60
 whiteSkullTime = 15 * 60
 redSkullTime = 30 * 24 * 60 * 60
-killsDayRedSkull = 3
-killsWeekRedSkull = 5
-killsMonthRedSkull = 10
-killsDayBanishment = 6
-killsWeekBanishment = 10
-killsMonthBanishment = 20
+killsDayRedSkull = 4
+killsWeekRedSkull = 6
+killsMonthRedSkull = 12
+killsDayBanishment = 8
+killsWeekBanishment = 14
+killsMonthBanishment = 22
 
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit
@@ -81,8 +81,8 @@ newbieLevelThreshold = 5
 
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
-rateExp = 1
-rateSkill = 5
+rateExp = 10
+rateSkill = 6
 rateLoot = 2
 rateMagic = 5
 rateSpawn = 1
