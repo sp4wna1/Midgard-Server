@@ -59,6 +59,5 @@
 		<item id="3028" countmax="1" chance="4" /> <!-- a small diamond -->
 		<item id="3351" countmax="1" chance="30" /> <!-- a steel helmet -->
 		<item id="3409" countmax="1" chance="150" /> <!-- a steel shield -->
-		<item id="3071" countmax="1" chance="10" /> <!-- a wand of inferno -->
 	</loot>
 </monster>

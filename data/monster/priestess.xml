@@ -54,7 +54,6 @@
 		<item id="3585" countmax="2" chance="75" /> <!-- a red apple -->
 		<item id="3738" countmax="1" chance="140" /> <!-- a sling herb -->
 		<item id="3034" countmax="1" chance="7" /> <!-- a talon -->
-		<item id="3067" countmax="1" chance="10" /> <!-- a tempest rod -->
 		<item id="3727" countmax="1" chance="35" /> <!-- a wood mushroom -->
 		<item id="2948" countmax="1" chance="14" /> <!-- a wooden flute -->
 	</loot>

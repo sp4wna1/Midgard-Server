@@ -51,6 +51,5 @@
 		<item id="3046" countmax="1" chance="50" /> <!-- a magic light wand -->
 		<item id="3586" countmax="5" chance="10" /> <!-- an orange -->
 		<item id="3033" countmax="1" chance="5" /> <!-- a small amethyst -->
-		<item id="3072" countmax="1" chance="10" /> <!-- a wand of plague -->
 	</loot>
 </monster>

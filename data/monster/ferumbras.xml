@@ -80,7 +80,6 @@
 		<item id="3027" countmax="15" chance="150" /> <!-- a black pearl -->
 		<item id="3041" countmax="1" chance="15" /> <!-- a blue gem -->
 		<item id="3079" countmax="1" chance="40" /> <!-- boots of haste -->
-		<item id="3070" countmax="1" chance="35" /> <!-- a moonlight rod -->
 		<item id="3076" countmax="1" chance="25" /> <!-- a crystal ball -->
 		<item id="3008" countmax="1" chance="15" /> <!-- a crystal necklace -->
 		<item id="3007" countmax="1" chance="55" /> <!-- a crystal ring -->
@@ -99,9 +98,7 @@
 		<item id="3364" countmax="1" chance="50" /> <!-- golden legs -->
 		<item id="2903" countmax="1" chance="75" /> <!-- a golden mug -->
 		<item id="3306" countmax="1" chance="45" /> <!-- a golden sickle -->
-		<item id="3066" countmax="1" chance="35" /> <!-- a snakebite rod -->
 		<item id="3038" countmax="1" chance="15" /> <!-- a green gem -->
-		<item id="3072" countmax="1" chance="25" /> <!-- a wand of plague -->
 		<item id="3284" countmax="1" chance="75" /> <!-- an ice rapier -->
 		<item id="3061" countmax="1" chance="10" /> <!-- a life crystal -->
 		<item id="3046" countmax="1" chance="115" /> <!-- a magic light wand -->
@@ -130,7 +127,6 @@
 		<item id="3309" countmax="1" chance="135" /> <!-- a thunder hammer -->
 		<item id="3265" countmax="1" chance="200" /> <!-- a two handed sword -->
 		<item id="3002" countmax="1" chance="1" /> <!-- a voodoo doll -->
-		<item id="3069" countmax="1" chance="35" /> <!-- a volcanic rod -->
 		<item id="3026" countmax="15" chance="125" /> <!-- a white pearl -->
 	</loot>
 </monster>

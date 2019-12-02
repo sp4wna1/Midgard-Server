@@ -66,7 +66,6 @@
 		<item id="3031" countmax="100" chance="600" /> <!-- a gold coin -->
 		<item id="3031" countmax="50" chance="400" /> <!-- a gold coin -->
 		<item id="2903" countmax="1" chance="30" /> <!-- a golden mug -->
-		<item id="3066" countmax="1" chance="10" /> <!-- a snakebite rod -->
 		<item id="3732" countmax="1" chance="180" /> <!-- a green mushroom -->
 		<item id="3061" countmax="1" chance="8" /> <!-- a life crystal -->
 		<item id="3052" countmax="1" chance="30" /> <!-- a life ring -->

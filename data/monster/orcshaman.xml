@@ -52,6 +52,5 @@
 		<item id="3031" countmax="5" chance="900" /> <!-- a gold coin -->
 		<item id="3277" countmax="1" chance="100" /> <!-- a spear -->
 		<item id="3289" countmax="1" chance="70" /> <!-- a staff -->
-		<item id="3072" countmax="1" chance="10" /> <!-- a wand of plague -->
 	</loot>
 </monster>

@@ -63,7 +63,6 @@
 		<item id="2815" countmax="1" chance="300" /> <!-- a scroll -->
 		<item id="3738" countmax="1" chance="50" /> <!-- a sling herb -->
 		<item id="3289" countmax="1" chance="110" /> <!-- a staff -->
-		<item id="3073" countmax="1" chance="10" /> <!-- a wand of cosmic energy -->
 		<item id="3037" countmax="1" chance="2" /> <!-- a yellow gem -->
 	</loot>
 </monster>

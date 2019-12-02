@@ -50,9 +50,7 @@
 		<item id="3031" countmax="25" chance="800" /> <!-- a gold coin -->
 		<item id="3061" countmax="1" chance="10" /> <!-- a life crystal -->
 		<item id="3052" countmax="1" chance="2" /> <!-- a life ring -->
-		<item id="3065" countmax="1" chance="10" /> <!-- a quagmire rod -->
 		<item id="3033" countmax="1" chance="5" /> <!-- a small amethyst -->
-		<item id="3066" countmax="1" chance="1" /> <!-- a snakebite rod -->
 		<item id="3037" countmax="1" chance="2" /> <!-- a yellow gem -->
 	</loot>
 </monster>
