@@ -27,9 +27,9 @@
 bool Groups::load()
 {
 	pugi::xml_document doc;
-	pugi::xml_parse_result result = doc.load_file("data/XML/groups.xml");
+	pugi::xml_parse_result result = doc.load_file("Midgard-Xml/XML/groups.xml");
 	if (!result) {
-		printXMLError("Error - Groups::load", "data/XML/groups.xml", result);
+		printXMLError("Error - Groups::load", "Midgard-Xml/XML/groups.xml", result);
 		return false;
 	}
 

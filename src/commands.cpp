@@ -77,9 +77,9 @@ Commands::~Commands()
 bool Commands::loadFromXml()
 {
 	pugi::xml_document doc;
-	pugi::xml_parse_result result = doc.load_file("data/XML/commands.xml");
+	pugi::xml_parse_result result = doc.load_file("Midgard-Xml/XML/commands.xml");
 	if (!result) {
-		printXMLError("Error - Commands::loadFromXml", "data/XML/commands.xml", result);
+		printXMLError("Error - Commands::loadFromXml", "Midgard-Xml/XML/commands.xml", result);
 		return false;
 	}
 

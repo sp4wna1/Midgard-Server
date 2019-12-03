@@ -80,7 +80,7 @@ newbieTownId = 11
 newbieLevelThreshold = 5
 
 -- Rates
--- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
+-- NOTE: rateExp is not used if you have enabled stages in Midgard-Xml/XML/stages.xml
 rateExp = 10
 rateSkill = 6
 rateLoot = 2
