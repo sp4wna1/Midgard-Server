@@ -250,7 +250,7 @@ class ConjureSpell final : public InstantSpell
 {
 	public:
 		explicit ConjureSpell(LuaScriptInterface* interface) : InstantSpell(interface) {
-			aggressive = true;
+			aggressive = false;
 		}
 
 		bool configureEvent(const pugi::xml_node& node) final;
@@ -278,7 +278,9 @@ class ConjureSpell final : public InstantSpell
 class RuneSpell final : public Action, public Spell
 {
 	public:
-		explicit RuneSpell(LuaScriptInterface* interface) : Action(interface) {}
+		explicit RuneSpell(LuaScriptInterface* interface) : Action(interface) {
+            aggressive = true;
+		}
 
 		bool configureEvent(const pugi::xml_node& node) final;
 		bool loadFunction(const pugi::xml_attribute& attr) final;
