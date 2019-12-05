@@ -250,7 +250,7 @@ class ConjureSpell final : public InstantSpell
 {
 	public:
 		explicit ConjureSpell(LuaScriptInterface* interface) : InstantSpell(interface) {
-			aggressive = false;
+			aggressive = true;
 		}
 
 		bool configureEvent(const pugi::xml_node& node) final;
