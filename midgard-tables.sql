@@ -450,6 +450,52 @@ CREATE TABLE `forum` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `donation_items`
+--
+
+CREATE TABLE `donation_items` (
+  `pid` int(11) NOT NULL PRIMARY KEY,
+  `name` char(255) NOT NULL,
+  `description` char(255) NOT NULL,
+  `image_path` char(255) NOT NULL,
+  `points` int(11) NOT NULL,
+  `enabled` BOOL NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `donation_types`
+--
+
+
+CREATE TABLE `donation_types` (
+  `id` int(11) NOT NULL PRIMARY KEY,
+  `name` char(255) NOT NULL,
+  `description` char(255) NOT NULL,
+  `enabled` BOOL NOT NULL,
+  `reference` char(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `donation_values`
+--
+
+
+CREATE TABLE `donation_values` (
+  `id` int(11) NOT NULL PRIMARY KEY,
+  `price` char(255) NOT NULL,
+  `points` char(255) NOT NULL,
+  `enabled` BOOL NOT NULL,
+  `promotion` BOOL NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+-- --------------------------------------------------------
+
+--
 -- Indexes for table `accounts`
 --
 ALTER TABLE `accounts`
