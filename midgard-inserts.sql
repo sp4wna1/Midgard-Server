@@ -7153,6 +7153,19 @@ INSERT INTO `tile_store` (`house_id`, `data`) VALUES
 (861, 0xea81bc7e0601000000680600),
 (861, 0xe781c17e0601000000660600);
 
+INSERT INTO donation_items(`pid`, `name`, `description`, `image_path`, `points`, `enabled`) VALUES(0, 'Premium Account', '5 dias', "", 5, true);
+INSERT INTO donation_items(`pid`, `name`, `description`, `image_path`, `points`, `enabled`) VALUES(1, 'Premium Account', '15 dias', "", 10, true);
+INSERT INTO donation_items(`pid`, `name`, `description`, `image_path`, `points`, `enabled`) VALUES(2, 'Premium Account', '30 dias', "", 15, true);
+
+INSERT INTO donation_types (`id`, `name`, `description`, `enabled`, `reference`) VALUES(0, 'PicPay', 'Instant donation', true, "'?subtopic=picpay'");
+
+INSERT INTO donation_values (`id`, `price`, `points`, `enabled`, `promotion`) VALUES(0, 'R$ 5,00', '5 points', true, false);
+INSERT INTO donation_values (`id`, `price`, `points`, `enabled`, `promotion`) VALUES(1, 'R$ 15,00', '15 points', true, false);
+INSERT INTO donation_values (`id`, `price`, `points`, `enabled`, `promotion`) VALUES(2, 'R$ 25,00', '30 points (+20%)', true, true);
+INSERT INTO donation_values (`id`, `price`, `points`, `enabled`, `promotion`) VALUES(3, 'R$ 50,00', '60 points (+20%)', true, true);
+INSERT INTO donation_values (`id`, `price`, `points`, `enabled`, `promotion`) VALUES(4, 'R$ 100,00', '120 points (+20%)', true, true);
+
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
