@@ -20,8 +20,8 @@ START TRANSACTION;
 --
 
 -- TODO: Change to Server Email;
-INSERT INTO `accounts` (`id`, `password`, `email`, `type`, `premdays`, `lastday`, `create_date`, `last_post`, `flag`, `key`)
-VALUES('974294', SHA1('Ft3JLYGPt25I'), 'gasp4wna1@gmail.com', 1, 0, current_date(), current_date, null, 'br', '');
+INSERT INTO `accounts` (`id`, `password`, `email`, `type`, `premdays`, `lastday`, `create_date`, `last_post`, `flag`, `key`, `points`)
+VALUES('974294', SHA1('Ft3JLYGPt25I'), 'gasp4wna1@gmail.com', 1, 0, current_date(), current_date, null, 'br', '', 0);
 
 -- --------------------------------------------------------
 --
@@ -7153,9 +7153,9 @@ INSERT INTO `tile_store` (`house_id`, `data`) VALUES
 (861, 0xea81bc7e0601000000680600),
 (861, 0xe781c17e0601000000660600);
 
-INSERT INTO donation_items(`pid`, `name`, `description`, `image_path`, `points`, `enabled`) VALUES(0, 'Premium Account', '5 dias', "", 5, true);
-INSERT INTO donation_items(`pid`, `name`, `description`, `image_path`, `points`, `enabled`) VALUES(1, 'Premium Account', '15 dias', "", 10, true);
-INSERT INTO donation_items(`pid`, `name`, `description`, `image_path`, `points`, `enabled`) VALUES(2, 'Premium Account', '30 dias', "", 15, true);
+INSERT INTO donation_items(`pid`, `name`, `description`, `image_path`, `points`, `enabled`) VALUES(2849, 'Premium Scroll 5x', '5 days', "https://midgard-files.s3-sa-east-1.amazonaws.com/premium-scroll-5x.gif", 5, true);
+INSERT INTO donation_items(`pid`, `name`, `description`, `image_path`, `points`, `enabled`) VALUES(2850, 'Premium Scroll 15x', '15 days', "https://midgard-files.s3-sa-east-1.amazonaws.com/premium-scroll-15x.gif", 10, true);
+INSERT INTO donation_items(`pid`, `name`, `description`, `image_path`, `points`, `enabled`) VALUES(2851, 'Premium Scroll 30x', '30 days', "https://midgard-files.s3-sa-east-1.amazonaws.com/premium-scroll-30x.gif", 15, true);
 
 INSERT INTO donation_types (`id`, `name`, `description`, `enabled`, `reference`) VALUES(0, 'PicPay', 'Instant donation', true, "'?subtopic=picpay'");
 
