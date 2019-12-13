@@ -18,7 +18,7 @@ function onUse(player, item, fromPosition, target, toPosition)
     local days =  premiumItems[itemId]
 
     if player:removeItem(itemId, 1) then
-        player:addPremiumDays(config.days)
+        player:addPremiumDays(days)
         player:getPosition():sendMagicEffect(CONST_ME_SOUND_PURPLE)
         player:sendTextMessage(MESSAGE_INFO_DESCR, "You have bought " .. days .." days of premium account.")
     else
