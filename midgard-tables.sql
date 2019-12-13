@@ -30,7 +30,8 @@ CREATE TABLE `accounts` (
   `create_date`  int(10) UNSIGNED NOT NULL DEFAULT '0',
   `last_post`  int(10) UNSIGNED,
   `flag` char(10) NOT NULL,
-  `key` char(20) NOT NULL DEFAULT ''
+  `key` char(20) NOT NULL DEFAULT '',
+  `points` int(5) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
