@@ -12613,8 +12613,8 @@ Flags       = {Take}
 Attributes  = {Weight=1900}
 
 TypeID      = 2849
-Name        = "a premium scroll 3x"
-Description = "Use it and receive 3 days of Premium Account"
+Name        = "a premium scroll 5x"
+Description = "Use it and receive 5 days of Premium Account"
 Flags       = {Take}
 Attributes  = {Weight=1900}
 
