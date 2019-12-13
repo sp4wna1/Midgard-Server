@@ -8146,7 +8146,6 @@ int LuaScriptInterface::luaPlayerGetPremiumDays(lua_State* L)
 
 int LuaScriptInterface::luaPlayerAddPremiumDays(lua_State* L)
 {
-	// player:addPremiumDays(days)
 	Player* player = getUserdata<Player>(L, 1);
 	if (!player) {
 		lua_pushnil(L);

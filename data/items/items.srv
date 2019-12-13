@@ -23096,3 +23096,8 @@ TypeID      = 5090
 Name        = "a treasure map"
 Flags       = {Text,Take}
 Attributes  = {Weight=830}
+
+TypeID      = 5091
+Name        = "a premium scroll for 3 days"
+Flags       = {Take}
+Attributes  = {Weight=5}

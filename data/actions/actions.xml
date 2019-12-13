@@ -360,4 +360,8 @@
 	<action itemid="4911" script="misc/doors.lua" />
 	<action itemid="5085" script="misc/doors.lua" />
 	<action itemid="2180" script="misc/doors.lua" />
+
+	<!-- Premium items -->
+	<action itemid="5091" script="donation/premium.lua"/>
+
 </actions>
