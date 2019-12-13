@@ -8,9 +8,9 @@
 
 local premiumItems = {
     --  [ID] = DAYS
-        [5091] = 3,
-        [5092] = 15,
-        [5093] = 30
+        [2849] = 3,
+        [2850] = 15,
+        [2851] = 30
 }
 
 function onUse(player, item, fromPosition, target, toPosition)
