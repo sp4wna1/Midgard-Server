@@ -12613,20 +12613,20 @@ Flags       = {Take}
 Attributes  = {Weight=1900}
 
 TypeID      = 2849
-Name        = "a green tome"
-Description = "It's a volume of The Mystic Secrets of Tibia"
+Name        = "a premium scroll 3x"
+Description = "Use it and receive 3 days of Premium Account"
 Flags       = {Take}
 Attributes  = {Weight=1900}
 
 TypeID      = 2850
-Name        = "a blue tome"
-Description = "It's a volume of The Mystic Secrets of Tibia"
+Name        = "a premium scroll 15x"
+Description = "Use it and receive 15 days of Premium Account"
 Flags       = {Take}
 Attributes  = {Weight=1900}
 
 TypeID      = 2851
-Name        = "a grey tome"
-Description = "It's a volume of The Mystic Secrets of Tibia"
+Name        = "a premium scroll 30x"
+Description = "Use it and receive 30 days of Premium Account"
 Flags       = {Take}
 Attributes  = {Weight=1900}
 
@@ -23096,8 +23096,3 @@ TypeID      = 5090
 Name        = "a treasure map"
 Flags       = {Text,Take}
 Attributes  = {Weight=830}
-
-TypeID      = 5091
-Name        = "a premium scroll for 3 days"
-Flags       = {Take}
-Attributes  = {Weight=5}
