@@ -362,6 +362,8 @@
 	<action itemid="2180" script="misc/doors.lua" />
 
 	<!-- Premium items -->
-	<action itemid="5091" script="donation/premium.lua"/>
+	<action itemid="2849" script="donation/premium.lua"/>
+	<action itemid="2850" script="donation/premium.lua"/>
+	<action itemid="2851" script="donation/premium.lua"/>
 
 </actions>
