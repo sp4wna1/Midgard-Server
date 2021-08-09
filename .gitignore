@@ -12,3 +12,6 @@ vc14/.vs/
 *.dll
 cmake-build-debug/
 .idea/
+.vscode/
+.DS_STORE
+build/
